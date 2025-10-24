@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi primera página</title>
+  </head>
+
+  <body>
+    <h1>Hola Mundo</h1>  
+    <p>Esta es mi primera página web creada con HTML.</p>
+
+    <h1>Título principal</h1>
+    <p>Este es un <strong>párrafo importante</strong> con énfasis en <em>ciertas palabras</em>.</p>
+
+    <ul>
+      <li>Elemento de lista 1</li>
+      <li>Elemento de lista 2</li>
+      <li>Elemento de lista 3</li>
+    </ul>
+
+    <form action="/enviar" method="post">
+      <label>Nombre:</label>
+      <input type="text" name="nombre">
+      <button type="submit">Enviar</button>
+    </form>
+
+    <a href="https://rodrigoantunez.github.io" target="_blank">
+      Visita mi página web
+    </a>
+  </body>
+</html>
